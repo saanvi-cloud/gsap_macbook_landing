@@ -4,11 +4,11 @@ import ProductViewer from "./components/ProductViewer";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
 import Showcase from "./components/Showcase";
-import { Features } from "tailwindcss";
+import Features from "./components/Features";
 import Highlights from "./components/Highlights";
 import Footer from "./components/Footer";
 
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
       <Highlights />
       <Footer />
     </main>
-  )
-}
+  );
+};
 
-export default App
+export default App;
