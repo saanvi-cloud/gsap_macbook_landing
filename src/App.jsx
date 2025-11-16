@@ -3,6 +3,10 @@ import Hero from "./components/Hero";
 import ProductViewer from "./components/ProductViewer";
 import gsap from "gsap";
 import { ScrollTrigger, SplitText } from "gsap/all";
+import Showcase from "./components/Showcase";
+import { Features } from "tailwindcss";
+import Highlights from "./components/Highlights";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -12,6 +16,11 @@ const App = () => {
       <NavBar />
       <Hero />
       <ProductViewer />
+      <Showcase />
+      <Performance />
+      <Features />
+      <Highlights />
+      <Footer />
     </main>
   )
 }
