@@ -5,7 +5,7 @@ const NavBar = () => {
   return (
     <header>
       <nav>
-        <img src='/logo.svg' alt='Apple logo' />
+        <img src= "/gsap_macbook_landing/logo.svg" alt='Apple logo' />
 
         <ul>
           {navLinks.map(({ label }) => (
@@ -16,10 +16,10 @@ const NavBar = () => {
         </ul>
         <div className='flex-ceter gap-3'>
           <button>
-            <img src='/search.svg' alt='Search' />
+            <img src= "/gsap_macbook_landing/search.svg" alt='Search' />
           </button>
           <button>
-            <img src='/cart.svg' alt='Cart'/>
+            <img src="/gsap_macbook_landing/cart.svg" alt='Cart'/>
           </button>
         </div>
       </nav>

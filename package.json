@@ -3,7 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/saanvi-cloud/gsap_macbook_landing",
+  "homepage": "https://saanvi-cloud.github.io/gsap_macbook_landing/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
